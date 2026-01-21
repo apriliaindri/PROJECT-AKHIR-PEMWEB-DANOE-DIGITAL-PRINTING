@@ -58,7 +58,7 @@ if (password_verify($password_input, $user['password'])) {
 } else {
     // Password salah
     $_SESSION['error_message'] = "Password salah.";
-    header("Location: sign-in.php");
+    header("Location: sign_in.php");
     exit();
 }
 }
